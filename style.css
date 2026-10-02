@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.image {
+    width: 60px;
+    height: 60px;
+}
+
+.bg-image {
+    background-image: url("https://img.freepik.com/free-photo/laptop-office-plant-black-background-top-view_169016-34505.jpg?t=st=1732116148~exp=1732119748~hmac=a858a5c086e0b06471818c2a03ee3452dc8bf05fe1a188cd69584c4de1f1213e&w=996");
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: top 20% right 0;
+    background-size: cover;
+    padding: 0 40px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#h4 {
+    padding-bottom: 15px;
+}
+
+h1 {
+    color: #e8362a;
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.button {
+    color: white;
+    background-color: #0f0e46;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+}
+
+.image-f {
+    width: 100px;
+    height: 100px;
+}
+
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+#feature .fe-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: white;
+    background-color: #88acb8;
+    margin-top: 2px;
+}
+
+#feature .fe-box img {
+    margin-bottom: 10px;
+}
+
+#product1 {
+    text-align: center;
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span {
+    color: #323536;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#product1 .pro .des h5 {
+    padding-top: 7px;
+    color: #444747;
+    font-size: 14px;
+}
+
+#product1 .pro .des i {
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#product1 .pro .des .cart {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    position: absolute;
+    line-height: 10px;
+    bottom: 20px;
+    right: 10px;
+    font-weight: bold;
+    color: #3151e0;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-photo/new-laptop-balancing-with-geometric-shapes_23-2150296461.jpg?w=996");
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+}
+
+#banner h4 {
+    color: #fff;
+    font-size: 16px;
+}
+
+#banner h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+
+}
+
+#banner h2 span {
+    color: #ef3636;
+
+}
+
+.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/1930177397/display_1500/stock-photo-detail-of-blue-illumination-of-the-notebook-keyboard-technology-concept-selective-focus-1930177397.jpg");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #1d5ea3;
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #e0486b;
+}
+
+#newsletter p {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+#newsletter p span {
+    color: white;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: white;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#newsletter .from {
+    display: flex;
+    width: 40%;
+}
+
+.image1 {
+    width: 100%;
+    height: 12vh;
+}
+
+.image2 {
+    width: 100%;
+    height: 30vh;
+}
+
+.imaget {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: red;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#cart table img {
+    width: 70px;
+}
+
+#cart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+
+#cart table td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#cart table thead {
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+#cart table thead td {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+.spr {
+    color: white;
+}
+
+.spr2 {
+    color: white;
+}
+
+#cart table tbody tr td {
+    padding-top: 15px;
+}
+
+#cart table tbody td {
+    font-size: 13px;
+}
+
+#cart-id {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#coupon {
+    width: 50%;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+#coupon h3,
+#subtotal h3 {
+    padding-bottom: 15px;
+}
+
+#coupon input {
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+
+#coupon button {
+    background-color: #088178;
+    color: white;
+    padding: 12px 20px;
+}
+
+#subtotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+
+#subtotal table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td {
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
+
+#subtotal button {
+    background-color: #088178;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:477px) {
+    .section-p1 {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    #feature {
+        justify-content: space-between;
+    }
+
+    .bg-image {
+        height: 70vh;
+        padding: 0 40px;
+        background-position: top 30% right 30%;
+    }
+
+    #cart {
+        overflow-x: auto;
+    }
+
+    #cart-id {
+        flex-direction: column;
+    }
+
+    #coupon {
+        width: 100%;
+
+    }
+
+    #subtotal {
+        width: 100%;
+        padding: 20px;
+    }
+
+}
