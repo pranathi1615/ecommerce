@@ -1,0 +1,8 @@
+// 47990 -> "₹47,990", 103499 -> "₹1,03,499" (Indian digit grouping)
+const inr = new Intl.NumberFormat("en-IN", {
+  style: "currency",
+  currency: "INR",
+  maximumFractionDigits: 0,
+});
+
+export const formatINR = (amount) => inr.format(amount);
